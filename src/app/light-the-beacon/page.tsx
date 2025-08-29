@@ -133,7 +133,7 @@ export default function LightTheBeaconPage() {
                   <p>
                   <b>Team:</b>
                   <br></br>Development and Production Lead: Noah Tilsen
-                  <br></br>Programmers: Patrick Smith (initial design), Filipe Zanella (contributor), Marcos "Oni" Modolo (contributor)
+                  <br></br>Programmers: Patrick Smith (initial design), Filipe Zanella (contributor), Marcos &quot;Oni&quot; Modolo (contributor)
                   <br></br>Art: Emerson Rabbitt (concepts, characters, scenes)
                   </p>
                   

@@ -60,7 +60,7 @@ export default function AlienScumPage() {
       } else {
         setSubmitMessage('ERROR JOINING WAITLIST')
       }
-    } catch (error) {
+    } catch {
       setSubmitMessage('ERROR JOINING WAITLIST')
     } finally {
       setIsSubmitting(false)
@@ -178,7 +178,7 @@ export default function AlienScumPage() {
                   
                   <p>
                     The city has privatized its exterminators and contracted your mech company to clean the streets. 
-                    The queen's broodlings are spawning everywhere, but aliens might not be your only problem. If you're not careful, 
+                    The queen&apos;s broodlings are spawning everywhere, but aliens might not be your only problem. If you&apos;re not careful, 
                     other mechs competing for the same loot could destroy your company and gain all the glory. 
                   </p>
                   <p>

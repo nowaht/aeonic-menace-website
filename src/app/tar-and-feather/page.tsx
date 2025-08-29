@@ -103,7 +103,7 @@ export default function TarAndFeatherPage() {
                 <div className="flex flex-col gap-3" style={{fontSize: '16px', lineHeight: '1.4'}}>
                   <p>
                     A visual novel about those times your father was tarred and feathered. 
-                    Click to advance the story and to unlock hidden secrets. Scratch your dad's head, 
+                    Click to advance the story and to unlock hidden secrets. Scratch your dad&apos;s head, 
                     remember odd memories, and maybe -- just maybe -- discover what an Australian Tickler is.
                   </p>
                   <p>

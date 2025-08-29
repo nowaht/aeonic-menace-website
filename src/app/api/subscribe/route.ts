@@ -126,7 +126,7 @@ Game Breakdown:
   }
 }
 
-async function addToGoogleSheets(data: any) {
+async function addToGoogleSheets(data: { email: string; games: string[] }) {
   // Google Sheets integration using service account
   const { GoogleAuth } = await import('google-auth-library').catch(() => ({ GoogleAuth: null }))
   const { google } = await import('googleapis').catch(() => ({ google: null }))
