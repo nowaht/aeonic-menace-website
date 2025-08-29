@@ -106,7 +106,7 @@ Game Breakdown:
 
     // Add to Google Sheets
     try {
-      await addToGoogleSheets(subscriptionData)
+      await addToGoogleSheets({ email, games })
     } catch (sheetsError) {
       console.error('Google Sheets error:', sheetsError)
       // Don't fail the request if sheets fails, just log it
