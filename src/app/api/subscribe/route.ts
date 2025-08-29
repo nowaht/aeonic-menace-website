@@ -157,12 +157,12 @@ async function addToGoogleSheets(data: { email: string; games: string[] }) {
     requestBody: {
       values: [[
         data.email,
-        data.timestamp,
-        data.source,
-        data.alienScum ? 'YES' : 'NO',
-        data.aeonicTarot ? 'YES' : 'NO',
-        data.lightTheBeacon ? 'YES' : 'NO',
-        data.tarAndFeather ? 'YES' : 'NO',
+        new Date().toISOString(),
+        'Portfolio Website',
+        data.games.includes('alien scum') ? 'YES' : 'NO',
+        data.games.includes('aeonic tarot') ? 'YES' : 'NO',
+        data.games.includes('light the beacon') ? 'YES' : 'NO',
+        data.games.includes('tar and feather') ? 'YES' : 'NO',
         'Active' // Status column
       ]]
     }
