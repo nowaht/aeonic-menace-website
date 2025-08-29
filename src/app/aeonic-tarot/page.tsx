@@ -31,7 +31,7 @@ export default function AeonicTarotPage() {
   }
   return (
     <div className="min-h-screen p-4" style={{backgroundColor: '#000000', color: '#AFAF4F', fontFamily: 'var(--font-anonymous-pro)', fontSize: '19px'}}>
-      <div className="max-w-4xl ml-8">
+      <div className="max-w-4xl mx-4 md:ml-8">
         {/* Header with Logo and Navigation */}
         <div className="mb-4">
           <Link href="/" className="inline-block mb-2">
@@ -65,9 +65,9 @@ export default function AeonicTarotPage() {
 
         {/* Game Information */}
         <div className="mb-8">
-          <div className="grid grid-cols-2 gap-8">
+          <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8">
             {/* Left Column - Game Info */}
-            <div>
+            <div className="order-1">
               <div className="mb-6">
                 <h2 className="text-xl mb-3" style={{color: '#CA6EA7'}}>DECK INFO</h2>
                 <div className="flex flex-col gap-2" style={{fontSize: '16px'}}>
@@ -126,7 +126,7 @@ export default function AeonicTarotPage() {
             </div>
 
             {/* Right Column - Image Carousel */}
-            <div>
+            <div className="order-2">
               <h2 className="text-xl mb-3" style={{color: '#CA6EA7'}}>CARD GALLERY</h2>
               <div className="relative">
                 {/* Main Image Display */}

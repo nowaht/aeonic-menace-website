@@ -61,7 +61,7 @@ export default function LightTheBeaconPage() {
   }
   return (
     <div className="min-h-screen p-4" style={{backgroundColor: '#000000', color: '#AFAF4F', fontFamily: 'var(--font-anonymous-pro)', fontSize: '19px'}}>
-      <div className="max-w-4xl ml-8">
+      <div className="max-w-4xl mx-4 md:ml-8">
         {/* Header with Logo and Navigation */}
         <div className="mb-4">
           <Link href="/" className="inline-block mb-2">
@@ -95,9 +95,9 @@ export default function LightTheBeaconPage() {
 
         {/* Game Information */}
         <div className="mb-8">
-          <div className="grid grid-cols-2 gap-8">
+          <div className="flex flex-col lg:grid lg:grid-cols-2 gap-8">
             {/* Left Column - Game Info */}
-            <div>
+            <div className="order-1">
               <div className="mb-6">
                 <h2 className="text-xl mb-3" style={{color: '#CA6EA7'}}>GAME INFO</h2>
                 <div className="flex flex-col gap-2" style={{fontSize: '16px'}}>
@@ -144,7 +144,7 @@ export default function LightTheBeaconPage() {
             </div>
 
             {/* Right Column - Image Carousels */}
-            <div>
+            <div className="order-2">
               <h2 className="text-xl mb-3" style={{color: '#CA6EA7'}}>MEDIA</h2>
               <div className="space-y-6">
                 
@@ -163,7 +163,7 @@ export default function LightTheBeaconPage() {
                     <div className="flex justify-between items-center">
                       <button
                         onClick={() => prevImage('heroes')}
-                        className="px-2 py-1 border transition-colors hover:text-black"
+                        className="px-3 py-2 md:px-2 md:py-1 border transition-colors hover:text-black"
                         style={{
                           borderColor: '#CA6EA7',
                           color: '#AFAF4F',
@@ -186,7 +186,7 @@ export default function LightTheBeaconPage() {
                       </span>
                       <button
                         onClick={() => nextImage('heroes')}
-                        className="px-2 py-1 border transition-colors hover:text-black"
+                        className="px-3 py-2 md:px-2 md:py-1 border transition-colors hover:text-black"
                         style={{
                           borderColor: '#CA6EA7',
                           color: '#AFAF4F',
@@ -223,7 +223,7 @@ export default function LightTheBeaconPage() {
                     <div className="flex justify-between items-center">
                       <button
                         onClick={() => prevImage('maps')}
-                        className="px-2 py-1 border transition-colors hover:text-black"
+                        className="px-3 py-2 md:px-2 md:py-1 border transition-colors hover:text-black"
                         style={{
                           borderColor: '#CA6EA7',
                           color: '#AFAF4F',
@@ -246,7 +246,7 @@ export default function LightTheBeaconPage() {
                       </span>
                       <button
                         onClick={() => nextImage('maps')}
-                        className="px-2 py-1 border transition-colors hover:text-black"
+                        className="px-3 py-2 md:px-2 md:py-1 border transition-colors hover:text-black"
                         style={{
                           borderColor: '#CA6EA7',
                           color: '#AFAF4F',
@@ -283,7 +283,7 @@ export default function LightTheBeaconPage() {
                     <div className="flex justify-between items-center">
                       <button
                         onClick={() => prevImage('concept')}
-                        className="px-2 py-1 border transition-colors hover:text-black"
+                        className="px-3 py-2 md:px-2 md:py-1 border transition-colors hover:text-black"
                         style={{
                           borderColor: '#CA6EA7',
                           color: '#AFAF4F',
@@ -306,7 +306,7 @@ export default function LightTheBeaconPage() {
                       </span>
                       <button
                         onClick={() => nextImage('concept')}
-                        className="px-2 py-1 border transition-colors hover:text-black"
+                        className="px-3 py-2 md:px-2 md:py-1 border transition-colors hover:text-black"
                         style={{
                           borderColor: '#CA6EA7',
                           color: '#AFAF4F',

@@ -291,7 +291,7 @@
 
     return (
       <div className="min-h-screen p-4" style={{backgroundColor: '#000000', color: '#AFAF4F', fontFamily: 'var(--font-anonymous-pro)', fontSize: '19px'}}>
-        <div className="max-w-4xl ml-8">
+        <div className="max-w-4xl mx-4 md:ml-8">
           {/* Logo */}
           <div className="mb-1">
             <img 
@@ -360,7 +360,7 @@
               <div>
                 <button
                   onClick={() => toggleSection('games')}
-                  className="px-3 py-1 border transition-colors text-left hover:text-black"
+                  className="px-4 py-2 md:px-3 md:py-1 border transition-colors text-left hover:text-black"
                   style={{
                     borderColor: '#CA6EA7',
                     color: '#AFAF4F',
@@ -601,7 +601,7 @@
               <div>
                 <button
                   onClick={() => toggleSection('contact')}
-                  className="px-3 py-1 border transition-colors text-left hover:text-black"
+                  className="px-4 py-2 md:px-3 md:py-1 border transition-colors text-left hover:text-black"
                   style={{
                     borderColor: '#CA6EA7',
                     color: '#AFAF4F',
@@ -697,7 +697,7 @@
               <div>
                 <button
                   onClick={() => toggleSection('join')}
-                  className="px-3 py-1 border transition-colors text-left hover:text-black"
+                  className="px-4 py-2 md:px-3 md:py-1 border transition-colors text-left hover:text-black"
                   style={{
                     borderColor: '#CA6EA7',
                     color: '#AFAF4F',
