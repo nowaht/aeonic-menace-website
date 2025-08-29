@@ -151,13 +151,13 @@ export default function AlienScumPage() {
                     }}
                     onMouseEnter={(e) => {
                       if (!isSubmitting) {
-                        (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
-                        (e.target as HTMLElement).style.color = '#000000'
+                        (e.target as HTMLElement).style.backgroundColor = '#CA6EA7';
+                        (e.target as HTMLElement).style.color = '#000000';
                       }
                     }}
                     onMouseLeave={(e) => {
-                      (e.target as HTMLElement).style.backgroundColor = 'transparent'
-                      (e.target as HTMLElement).style.color = '#AFAF4F'
+                      (e.target as HTMLElement).style.backgroundColor = 'transparent';
+                      (e.target as HTMLElement).style.color = '#AFAF4F';
                     }}
                   >
                     {isSubmitting ? 'JOINING...' : 'JOIN WAITLIST'}
@@ -198,12 +198,12 @@ export default function AlienScumPage() {
                         fontSize: '14px'
                       }}
                       onMouseEnter={(e) => {
-                        (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
-                        (e.target as HTMLElement).style.color = '#000000'
+                        (e.target as HTMLElement).style.backgroundColor = '#CA6EA7';
+                        (e.target as HTMLElement).style.color = '#000000';
                       }}
                       onMouseLeave={(e) => {
-                        (e.target as HTMLElement).style.backgroundColor = 'transparent'
-                        (e.target as HTMLElement).style.color = '#AFAF4F'
+                        (e.target as HTMLElement).style.backgroundColor = 'transparent';
+                        (e.target as HTMLElement).style.color = '#AFAF4F';
                       }}
                     >
                       [↓] DOWNLOAD SELL SHEET / PRESS KIT
@@ -258,12 +258,12 @@ export default function AlienScumPage() {
               textDecoration: 'none'
             }}
             onMouseEnter={(e) => {
-              (e.target as HTMLElement).style.backgroundColor = '#EFEA53'
-              (e.target as HTMLElement).style.color = '#000000'
+              (e.target as HTMLElement).style.backgroundColor = '#EFEA53';
+              (e.target as HTMLElement).style.color = '#000000';
             }}
             onMouseLeave={(e) => {
-              (e.target as HTMLElement).style.backgroundColor = 'transparent'
-              (e.target as HTMLElement).style.color = '#AFAF4F'
+              (e.target as HTMLElement).style.backgroundColor = 'transparent';
+              (e.target as HTMLElement).style.color = '#AFAF4F';
             }}
           >
             [←] BACK

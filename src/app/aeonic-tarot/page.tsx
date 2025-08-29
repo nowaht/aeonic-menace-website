@@ -151,11 +151,11 @@ export default function AeonicTarotPage() {
                     }}
                     onMouseEnter={(e) => {
                       (e.target as HTMLElement).style.backgroundColor = '#CA6EA7';
-                      (e.target as HTMLElement).style.color = '#000000'
+                      (e.target as HTMLElement).style.color = '#000000';
                     }}
                     onMouseLeave={(e) => {
                       (e.target as HTMLElement).style.backgroundColor = 'transparent';
-                      (e.target as HTMLElement).style.color = '#AFAF4F'
+                      (e.target as HTMLElement).style.color = '#AFAF4F';
                     }}
                   >
                     [←] PREV
@@ -176,11 +176,11 @@ export default function AeonicTarotPage() {
                     }}
                     onMouseEnter={(e) => {
                       (e.target as HTMLElement).style.backgroundColor = '#CA6EA7';
-                      (e.target as HTMLElement).style.color = '#000000'
+                      (e.target as HTMLElement).style.color = '#000000';
                     }}
                     onMouseLeave={(e) => {
                       (e.target as HTMLElement).style.backgroundColor = 'transparent';
-                      (e.target as HTMLElement).style.color = '#AFAF4F'
+                      (e.target as HTMLElement).style.color = '#AFAF4F';
                     }}
                   >
                     NEXT [→]
@@ -224,11 +224,11 @@ export default function AeonicTarotPage() {
             }}
             onMouseEnter={(e) => {
               (e.target as HTMLElement).style.backgroundColor = '#CA6EA7';
-              (e.target as HTMLElement).style.color = '#000000'
+              (e.target as HTMLElement).style.color = '#000000';
             }}
             onMouseLeave={(e) => {
               (e.target as HTMLElement).style.backgroundColor = 'transparent';
-              (e.target as HTMLElement).style.color = '#AFAF4F'
+              (e.target as HTMLElement).style.color = '#AFAF4F';
             }}
           >
             [←] BACK
