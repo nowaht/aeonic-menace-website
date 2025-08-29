@@ -99,7 +99,7 @@
         // For other sections, just toggle normally
         return {
           ...prev,
-          [section]: !prev[section]
+          [section]: !prev[section as keyof typeof prev]
         }
       })
     }
@@ -182,7 +182,7 @@
 
     const handleGameToggle = (game: string) => {
       setSubscriptionForm(prev => {
-        const newGames = { ...prev.games, [game]: !prev.games[game] }
+        const newGames = { ...prev.games, [game]: !prev.games[game as keyof typeof prev.games] }
         const allSelected = Object.values(newGames).every(Boolean)
         return {
           ...prev,
@@ -279,6 +279,8 @@
         games: false,
         contact: false,
         join: false,
+        updates: false,
+        discord: false,
         'alien scum!': false,
         'aeonic tarot': false,
         'light the beacon': false,
@@ -734,7 +736,7 @@
                           (e.target as HTMLElement).style.color = '#AFAF4F';
                         }}
                       >
-                        {expandedSections.s ? '[-]' : '[+]'} UPDATES
+                        {expandedSections.updates ? '[-]' : '[+]'} UPDATES
                       </button>
                       {expandedSections.updates && (
                         <div className="ml-4 mt-2" style={{color: '#AFAF4F'}}>
