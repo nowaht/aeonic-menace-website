@@ -73,7 +73,7 @@ export default function AlienScumPage() {
         <div className="mb-4">
           <Link href="/" className="inline-block mb-2">
             <img 
-              src="/images/Aeonic Menace games White Yellow Logo Design-06.png" 
+              src="/Images/Aeonic Menace games White Yellow Logo Design-06.png" 
               alt="Aeonic Menace Games Logo" 
               className="max-w-48 mb-1 opacity-80 hover:opacity-100 transition-opacity"
             />

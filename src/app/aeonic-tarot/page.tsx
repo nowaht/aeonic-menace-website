@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 
 export default function AeonicTarotPage() {
@@ -35,7 +36,7 @@ export default function AeonicTarotPage() {
         <div className="mb-4">
           <Link href="/" className="inline-block mb-2">
             <img 
-              src="/images/Aeonic Menace games White Yellow Logo Design-06.png" 
+              src="/Images/Aeonic Menace games White Yellow Logo Design-06.png" 
               alt="Aeonic Menace Games Logo" 
               className="max-w-48 mb-1 opacity-80 hover:opacity-100 transition-opacity"
             />
@@ -187,23 +188,20 @@ export default function AeonicTarotPage() {
                   </button>
                 </div>
                 
-                {/* Thumbnail Navigation */}
-                <div className="grid grid-cols-5 gap-2">
-                  {images.map((image, index) => (
+                {/* Quick Navigation */}
+                <div className="flex justify-center gap-1 flex-wrap">
+                  {images.map((_, index) => (
                     <button
                       key={index}
                       onClick={() => setCurrentImageIndex(index)}
-                      className="aspect-square border transition-opacity hover:opacity-100"
+                      className="w-8 h-8 border text-xs transition-colors hover:text-black"
                       style={{
                         borderColor: currentImageIndex === index ? '#EFEA53' : '#CA6EA7',
-                        opacity: currentImageIndex === index ? 1 : 0.6
+                        backgroundColor: currentImageIndex === index ? '#EFEA53' : 'transparent',
+                        color: currentImageIndex === index ? '#000000' : '#AFAF4F'
                       }}
                     >
-                      <img 
-                        src={image} 
-                        alt={`Thumbnail ${index + 1}`}
-                        className="w-full h-full object-cover"
-                      />
+                      {index + 1}
                     </button>
                   ))}
                 </div>

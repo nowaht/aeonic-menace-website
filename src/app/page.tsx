@@ -295,7 +295,7 @@
           {/* Logo */}
           <div className="mb-1">
             <img 
-              src="/images/Aeonic Menace games White Yellow Logo Design-06.png" 
+              src="/Images/Aeonic Menace games White Yellow Logo Design-06.png" 
               alt="Aeonic Menace Games Logo" 
               className="max-w-64 mb-1 opacity-80"
             />
