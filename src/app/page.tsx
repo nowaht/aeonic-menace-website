@@ -365,12 +365,12 @@
                     width: 'fit-content'
                   }}
                   onMouseEnter={(e) => {
-                    e.target.style.backgroundColor = '#CA6EA7'
-                    e.target.style.color = '#000000'
+                    (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
+                    (e.target as HTMLElement).style.color = '#000000'
                   }}
                   onMouseLeave={(e) => {
-                    e.target.style.backgroundColor = 'transparent'
-                    e.target.style.color = '#AFAF4F'
+                    (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                    (e.target as HTMLElement).style.color = '#AFAF4F'
                   }}
                 >
                   {expandedSections.games ? '[-]' : '[+]'} GAMES
@@ -389,12 +389,12 @@
                           width: 'fit-content'
                         }}
                         onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#CA6EA7'
-                          e.target.style.color = '#000000'
+                          (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
+                          (e.target as HTMLElement).style.color = '#000000'
                         }}
                         onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = 'transparent'
-                          e.target.style.color = '#AFAF4F'
+                          (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                          (e.target as HTMLElement).style.color = '#AFAF4F'
                         }}
                       >
                         {expandedSections['alien scum!'] ? '[-]' : '[+]'} ALIEN SCUM!
@@ -415,12 +415,12 @@
                                 fontSize: '14x'
                               }}
                               onMouseEnter={(e) => {
-                                e.target.style.backgroundColor = '#EFEA53'
-                                e.target.style.color = '#000000'
+                                (e.target as HTMLElement).style.backgroundColor = '#EFEA53'
+                                (e.target as HTMLElement).style.color = '#000000'
                               }}
                               onMouseLeave={(e) => {
-                                e.target.style.backgroundColor = 'transparent'
-                                e.target.style.color = '#AFAF4F'
+                                (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                                (e.target as HTMLElement).style.color = '#AFAF4F'
                               }}
                             >
                               → ALIEN SCUM!
@@ -443,12 +443,12 @@
                           width: 'fit-content'
                         }}
                         onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#CA6EA7'
-                          e.target.style.color = '#000000'
+                          (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
+                          (e.target as HTMLElement).style.color = '#000000'
                         }}
                         onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = 'transparent'
-                          e.target.style.color = '#AFAF4F'
+                          (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                          (e.target as HTMLElement).style.color = '#AFAF4F'
                         }}
                       >
                         {expandedSections['aeonic tarot'] ? '[-]' : '[+]'} AEONIC TAROT
@@ -469,12 +469,12 @@
                                 fontSize: '14x'
                               }}
                               onMouseEnter={(e) => {
-                                e.target.style.backgroundColor = '#EFEA53'
-                                e.target.style.color = '#000000'
+                                (e.target as HTMLElement).style.backgroundColor = '#EFEA53'
+                                (e.target as HTMLElement).style.color = '#000000'
                               }}
                               onMouseLeave={(e) => {
-                                e.target.style.backgroundColor = 'transparent'
-                                e.target.style.color = '#AFAF4F'
+                                (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                                (e.target as HTMLElement).style.color = '#AFAF4F'
                               }}
                             >
                               → AEONIC TAROT
@@ -496,12 +496,12 @@
                           width: 'fit-content'
                         }}
                         onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#CA6EA7'
-                          e.target.style.color = '#000000'
+                          (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
+                          (e.target as HTMLElement).style.color = '#000000'
                         }}
                         onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = 'transparent'
-                          e.target.style.color = '#AFAF4F'
+                          (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                          (e.target as HTMLElement).style.color = '#AFAF4F'
                         }}
                       >
                         {expandedSections['light the beacon'] ? '[-]' : '[+]'} LIGHT THE BEACON
@@ -522,12 +522,12 @@
                                 fontSize: '14x'
                               }}
                               onMouseEnter={(e) => {
-                                e.target.style.backgroundColor = '#EFEA53'
-                                e.target.style.color = '#000000'
+                                (e.target as HTMLElement).style.backgroundColor = '#EFEA53'
+                                (e.target as HTMLElement).style.color = '#000000'
                               }}
                               onMouseLeave={(e) => {
-                                e.target.style.backgroundColor = 'transparent'
-                                e.target.style.color = '#AFAF4F'
+                                (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                                (e.target as HTMLElement).style.color = '#AFAF4F'
                               }}
                             >
                               → LIGHT THE BEACON
@@ -549,12 +549,12 @@
                           width: 'fit-content'
                         }}
                         onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#CA6EA7'
-                          e.target.style.color = '#000000'
+                          (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
+                          (e.target as HTMLElement).style.color = '#000000'
                         }}
                         onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = 'transparent'
-                          e.target.style.color = '#AFAF4F'
+                          (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                          (e.target as HTMLElement).style.color = '#AFAF4F'
                         }}
                       >
                         {expandedSections['tar and feather'] ? '[-]' : '[+]'} TAR AND FEATHER
@@ -575,12 +575,12 @@
                                 fontSize: '14x'
                               }}
                               onMouseEnter={(e) => {
-                                e.target.style.backgroundColor = '#EFEA53'
-                                e.target.style.color = '#000000'
+                                (e.target as HTMLElement).style.backgroundColor = '#EFEA53'
+                                (e.target as HTMLElement).style.color = '#000000'
                               }}
                               onMouseLeave={(e) => {
-                                e.target.style.backgroundColor = 'transparent'
-                                e.target.style.color = '#AFAF4F'
+                                (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                                (e.target as HTMLElement).style.color = '#AFAF4F'
                               }}
                             >
                               → TAR AND FEATHER
@@ -606,12 +606,12 @@
                     width: 'fit-content'
                   }}
                   onMouseEnter={(e) => {
-                    e.target.style.backgroundColor = '#CA6EA7'
-                    e.target.style.color = '#000000'
+                    (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
+                    (e.target as HTMLElement).style.color = '#000000'
                   }}
                   onMouseLeave={(e) => {
-                    e.target.style.backgroundColor = 'transparent'
-                    e.target.style.color = '#AFAF4F'
+                    (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                    (e.target as HTMLElement).style.color = '#AFAF4F'
                   }}
                 >
                   {expandedSections.contact ? '[-]' : '[+]'} CONTACT
@@ -669,13 +669,13 @@
                         }}
                         onMouseEnter={(e) => {
                           if (!isSubmitting) {
-                            e.target.style.backgroundColor = '#CA6EA7'
-                            e.target.style.color = '#000000'
+                            (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
+                            (e.target as HTMLElement).style.color = '#000000'
                           }
                         }}
                         onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = 'transparent'
-                          e.target.style.color = '#AFAF4F'
+                          (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                          (e.target as HTMLElement).style.color = '#AFAF4F'
                         }}
                       >
                         {isSubmitting ? 'SENDING...' : 'SEND MESSAGE'}
@@ -702,12 +702,12 @@
                     width: 'fit-content'
                   }}
                   onMouseEnter={(e) => {
-                    e.target.style.backgroundColor = '#CA6EA7'
-                    e.target.style.color = '#000000'
+                    (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
+                    (e.target as HTMLElement).style.color = '#000000'
                   }}
                   onMouseLeave={(e) => {
-                    e.target.style.backgroundColor = 'transparent'
-                    e.target.style.color = '#AFAF4F'
+                    (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                    (e.target as HTMLElement).style.color = '#AFAF4F'
                   }}
                 >
                   {expandedSections.join ? '[-]' : '[+]'} JOIN
@@ -726,12 +726,12 @@
                           width: 'fit-content'
                         }}
                         onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#CA6EA7'
-                          e.target.style.color = '#000000'
+                          (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
+                          (e.target as HTMLElement).style.color = '#000000'
                         }}
                         onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = 'transparent'
-                          e.target.style.color = '#AFAF4F'
+                          (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                          (e.target as HTMLElement).style.color = '#AFAF4F'
                         }}
                       >
                         {expandedSections.s ? '[-]' : '[+]'} UPDATES
@@ -812,13 +812,13 @@
                               }}
                               onMouseEnter={(e) => {
                                 if (!isSubscribing) {
-                                  e.target.style.backgroundColor = '#CA6EA7'
-                                  e.target.style.color = '#000000'
+                                  (e.target as HTMLElement).style.backgroundColor = '#CA6EA7'
+                                  (e.target as HTMLElement).style.color = '#000000'
                                 }
                               }}
                               onMouseLeave={(e) => {
-                                e.target.style.backgroundColor = 'transparent'
-                                e.target.style.color = '#AFAF4F'
+                                (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                                (e.target as HTMLElement).style.color = '#AFAF4F'
                               }}
                             >
                               {isSubscribing ? 'SUBSCRIBING...' : 'SUBSCRIBE'}
@@ -848,12 +848,12 @@
                           textDecoration: 'none'
                         }}
                         onMouseEnter={(e) => {
-                          e.target.style.backgroundColor = '#53539F'
-                          e.target.style.color = '#000000'
+                          (e.target as HTMLElement).style.backgroundColor = '#53539F'
+                          (e.target as HTMLElement).style.color = '#000000'
                         }}
                         onMouseLeave={(e) => {
-                          e.target.style.backgroundColor = 'transparent'
-                          e.target.style.color = '#AFAF4F'
+                          (e.target as HTMLElement).style.backgroundColor = 'transparent'
+                          (e.target as HTMLElement).style.color = '#AFAF4F'
                         }}
                       >
                         [→] DISCORD

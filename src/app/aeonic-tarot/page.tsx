@@ -150,12 +150,12 @@ export default function AeonicTarotPage() {
                       fontSize: '14px'
                     }}
                     onMouseEnter={(e) => {
-                      e.target.style.backgroundColor = '#CA6EA7'
-                      e.target.style.color = '#000000'
+                      (e.target as HTMLElement).style.backgroundColor = '#CA6EA7';
+                      (e.target as HTMLElement).style.color = '#000000'
                     }}
                     onMouseLeave={(e) => {
-                      e.target.style.backgroundColor = 'transparent'
-                      e.target.style.color = '#AFAF4F'
+                      (e.target as HTMLElement).style.backgroundColor = 'transparent';
+                      (e.target as HTMLElement).style.color = '#AFAF4F'
                     }}
                   >
                     [←] PREV
@@ -175,12 +175,12 @@ export default function AeonicTarotPage() {
                       fontSize: '14px'
                     }}
                     onMouseEnter={(e) => {
-                      e.target.style.backgroundColor = '#CA6EA7'
-                      e.target.style.color = '#000000'
+                      (e.target as HTMLElement).style.backgroundColor = '#CA6EA7';
+                      (e.target as HTMLElement).style.color = '#000000'
                     }}
                     onMouseLeave={(e) => {
-                      e.target.style.backgroundColor = 'transparent'
-                      e.target.style.color = '#AFAF4F'
+                      (e.target as HTMLElement).style.backgroundColor = 'transparent';
+                      (e.target as HTMLElement).style.color = '#AFAF4F'
                     }}
                   >
                     NEXT [→]
