@@ -35,18 +35,22 @@ export default function AeonicTarotPage() {
         {/* Header with Logo and Navigation */}
         <div className="mb-4">
           <Link href="/" className="inline-block mb-2">
-            <img 
+            <Image 
               src="/Images/Aeonic Menace games White Yellow Logo Design-06.png" 
               alt="Aeonic Menace Games Logo" 
+              width={192}
+              height={90}
               className="max-w-48 mb-1 opacity-80 hover:opacity-100 transition-opacity"
             />
           </Link>
           
           {/* Game Logo */}
           <div className="flex items-center gap-6 mb-4">
-            <img 
+            <Image 
               src="/Images/AeonicTitleW.png" 
               alt="Aeonic Tarot Logo" 
+              width={300}
+              height={80}
               className="opacity-92"
               style={{maxHeight: '80px', maxWidth: '300px', objectFit: 'contain'}}
             />
@@ -61,7 +65,7 @@ export default function AeonicTarotPage() {
         </div>
 
         {/* Separator Bar */}
-        <div className="mb-6 animate-pulse" style={{borderTop: '1px solid #AFAF4F', width: '600px'}}></div>
+        <div className="mb-6 animate-pulse w-full max-w-xl" style={{borderTop: '1px solid #AFAF4F'}}></div>
 
         {/* Game Information */}
         <div className="mb-8">
@@ -131,9 +135,11 @@ export default function AeonicTarotPage() {
               <div className="relative">
                 {/* Main Image Display */}
                 <div className="w-full aspect-[3/4] mb-4">
-                  <img 
+                  <Image 
                     src={images[currentImageIndex]} 
                     alt={`Aeonic Tarot Card ${currentImageIndex + 1}`}
+                    width={600}
+                    height={800}
                     className="w-full h-full object-contain border"
                     style={{borderColor: '#CA6EA7'}}
                   />

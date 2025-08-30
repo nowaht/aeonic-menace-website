@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 
 export default function TarAndFeatherPage() {
@@ -28,18 +29,22 @@ export default function TarAndFeatherPage() {
         {/* Header with Logo and Navigation */}
         <div className="mb-4">
           <Link href="/" className="inline-block mb-2">
-            <img 
+            <Image 
               src="/Images/Aeonic Menace games White Yellow Logo Design-06.png" 
               alt="Aeonic Menace Games Logo" 
+              width={192}
+              height={90}
               className="max-w-48 mb-1 opacity-80 hover:opacity-100 transition-opacity"
             />
           </Link>
           
           {/* Game Logo */}
           <div className="flex items-center gap-6 mb-4">
-            <img 
+            <Image 
               src="/Images/TaFLogo.png" 
               alt="Tar and Feather Logo" 
+              width={300}
+              height={80}
               className="opacity-92"
               style={{maxHeight: '80px', maxWidth: '300px', objectFit: 'contain'}}
             />
@@ -54,7 +59,7 @@ export default function TarAndFeatherPage() {
         </div>
 
         {/* Separator Bar */}
-        <div className="mb-6 animate-pulse" style={{borderTop: '1px solid #AFAF4F', width: '600px'}}></div>
+        <div className="mb-6 animate-pulse w-full max-w-xl" style={{borderTop: '1px solid #AFAF4F'}}></div>
 
         {/* Game Information */}
         <div className="mb-8">
@@ -140,9 +145,11 @@ export default function TarAndFeatherPage() {
                   <h3 className="text-lg mb-2" style={{color: '#CA6EA7', fontSize: '16px'}}>SCREENSHOTS</h3>
                   <div className="relative">
                     <div className="w-full aspect-video mb-2">
-                      <img 
+                      <Image 
                         src={images[currentImageIndex]} 
                         alt={`Screenshot ${currentImageIndex + 1}`}
+                        width={800}
+                        height={450}
                         className="w-full h-full object-contain border"
                         style={{borderColor: '#CA6EA7'}}
                       />

@@ -2,6 +2,7 @@
 
   import { useState, useEffect } from 'react'
   import Link from 'next/link'
+  import Image from 'next/image'
 
   /*
   COLOR STYLE GUIDE - DOS Portfolio Theme
@@ -41,7 +42,7 @@
     const [isSubscribing, setIsSubscribing] = useState(false)
     const [subscriptionMessage, setSubscriptionMessage] = useState('')
     const [expandedSections, setExpandedSections] = useState({
-      games: false,
+      games: true,
       contact: false,
       join: false,
       updates: false,
@@ -276,7 +277,7 @@
         ''
       ])
       setExpandedSections({
-        games: false,
+        games: true,
         contact: false,
         join: false,
         updates: false,
@@ -294,15 +295,17 @@
         <div className="max-w-4xl mx-4 md:ml-8">
           {/* Logo */}
           <div className="mb-1">
-            <img 
+            <Image 
               src="/Images/Aeonic Menace games White Yellow Logo Design-06.png" 
               alt="Aeonic Menace Games Logo" 
+              width={256}
+              height={120}
               className="max-w-64 mb-1 opacity-80"
             />
           </div>
           
           {/* Text and Logo Above Bar */}
-          <div className="mb-2 flex justify-between items-end" style={{width: '600px'}}>
+          <div className="mb-2 flex justify-between items-end w-full max-w-xl">
             {/* Description Text */}
             <div className="flex-1">
               {output.map((line, index) => (
@@ -315,33 +318,41 @@
             {/* Game Logo Display */}
             <div className="flex items-center" style={{height: '60px', marginLeft: '20px'}}>
               {expandedSections['alien scum!'] && (
-                <img 
+                <Image 
                   src="/Images/ASLogo-01.png" 
                   alt="Alien Scum Logo" 
+                  width={200}
+                  height={60}
                   className="opacity-92"
                   style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
                 />
               )}
               {expandedSections['aeonic tarot'] && (
-                <img 
+                <Image 
                   src="/Images/AeonicTitleW.png" 
                   alt="Aeonic Tarot Logo" 
+                  width={200}
+                  height={60}
                   className="opacity-92"
                   style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
                 />
               )}
               {expandedSections['light the beacon'] && (
-                <img 
+                <Image 
                   src="/Images/LtBlogo2.png" 
                   alt="Light the Beacon Logo" 
+                  width={200}
+                  height={60}
                   className="opacity-100"
                   style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
                 />
               )}
               {expandedSections['tar and feather'] && (
-                <img 
+                <Image 
                   src="/Images/TaFLogo.png" 
                   alt="Tar and Feather Logo" 
+                  width={200}
+                  height={60}
                   className="opacity-92"
                   style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
                 />
@@ -350,7 +361,7 @@
           </div>
 
           {/* Separator Bar */}
-          <div className="mb-6 animate-pulse" style={{borderTop: '1px solid #AFAF4F', width: '600px'}}></div>
+          <div className="mb-6 animate-pulse w-full max-w-xl" style={{borderTop: '1px solid #AFAF4F'}}></div>
 
           {/* Navigation Tree */}
           <div className="mb-8">
