@@ -45,14 +45,14 @@ export default function AeonicTarotPage() {
           </Link>
           
           {/* Game Logo */}
-          <div className="flex items-center gap-6 mb-4">
+          <div className="flex items-center justify-start gap-6 mb-4">
             <Image 
               src="/Images/AeonicTitleW.png" 
               alt="Aeonic Tarot Logo" 
-              width={300}
-              height={80}
+              width={200}
+              height={60}
               className="opacity-92"
-              style={{maxHeight: '80px', maxWidth: '300px', objectFit: 'contain'}}
+              style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
             />
           </div>
           
@@ -65,7 +65,7 @@ export default function AeonicTarotPage() {
         </div>
 
         {/* Separator Bar */}
-        <div className="mb-6 animate-pulse w-full max-w-xl" style={{borderTop: '1px solid #AFAF4F'}}></div>
+        <div className="mb-6 animate-pulse w-full md:w-[600px]" style={{borderTop: '1px solid #AFAF4F'}}></div>
 
         {/* Game Information */}
         <div className="mb-8">

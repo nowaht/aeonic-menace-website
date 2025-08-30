@@ -305,7 +305,7 @@
           </div>
           
           {/* Text and Logo Above Bar */}
-          <div className="mb-2 flex justify-between items-end w-full max-w-xl">
+          <div className="mb-2 flex justify-between items-end w-full md:w-[600px]">
             {/* Description Text */}
             <div className="flex-1">
               {output.map((line, index) => (
@@ -318,50 +318,58 @@
             {/* Game Logo Display */}
             <div className="flex items-center" style={{height: '60px', marginLeft: '20px'}}>
               {expandedSections['alien scum!'] && (
-                <Image 
-                  src="/Images/ASLogo-01.png" 
-                  alt="Alien Scum Logo" 
-                  width={200}
-                  height={60}
-                  className="opacity-92"
-                  style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
-                />
+                <Link href="/alien-scum" className="hover:opacity-100 transition-opacity">
+                  <Image 
+                    src="/Images/ASLogo-01.png" 
+                    alt="Alien Scum Logo" 
+                    width={200}
+                    height={60}
+                    className="opacity-92"
+                    style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
+                  />
+                </Link>
               )}
               {expandedSections['aeonic tarot'] && (
-                <Image 
-                  src="/Images/AeonicTitleW.png" 
-                  alt="Aeonic Tarot Logo" 
-                  width={200}
-                  height={60}
-                  className="opacity-92"
-                  style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
-                />
+                <Link href="/aeonic-tarot" className="hover:opacity-100 transition-opacity">
+                  <Image 
+                    src="/Images/AeonicTitleW.png" 
+                    alt="Aeonic Tarot Logo" 
+                    width={200}
+                    height={60}
+                    className="opacity-92"
+                    style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
+                  />
+                </Link>
               )}
               {expandedSections['light the beacon'] && (
-                <Image 
-                  src="/Images/LtBlogo2.png" 
-                  alt="Light the Beacon Logo" 
-                  width={200}
-                  height={60}
-                  className="opacity-100"
-                  style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
-                />
+                <Link href="/light-the-beacon" className="hover:opacity-100 transition-opacity">
+                  <Image 
+                    src="/Images/LtBlogo2.png" 
+                    alt="Light the Beacon Logo" 
+                    width={200}
+                    height={60}
+                    className="opacity-100"
+                    style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
+                  />
+                </Link>
               )}
               {expandedSections['tar and feather'] && (
-                <Image 
-                  src="/Images/TaFLogo.png" 
-                  alt="Tar and Feather Logo" 
-                  width={200}
-                  height={60}
-                  className="opacity-92"
-                  style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
-                />
+                <Link href="/tar-and-feather" className="hover:opacity-100 transition-opacity">
+                  <Image 
+                    src="/Images/TaFLogo.png" 
+                    alt="Tar and Feather Logo" 
+                    width={200}
+                    height={60}
+                    className="opacity-92"
+                    style={{maxHeight: '60px', maxWidth: '200px', objectFit: 'contain'}}
+                  />
+                </Link>
               )}
             </div>
           </div>
 
           {/* Separator Bar */}
-          <div className="mb-6 animate-pulse w-full max-w-xl" style={{borderTop: '1px solid #AFAF4F'}}></div>
+          <div className="mb-6 animate-pulse w-full md:w-[600px]" style={{borderTop: '1px solid #AFAF4F'}}></div>
 
           {/* Navigation Tree */}
           <div className="mb-8">
