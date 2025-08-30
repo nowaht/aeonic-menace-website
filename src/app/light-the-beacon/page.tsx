@@ -13,9 +13,9 @@ export default function LightTheBeaconPage() {
     '/Images/LtBLineup02.png',
     '/Images/LtBTown.jpg',
     '/Images/Ltbss1.png',
-    '/Images/LtBtown1.PNG',
-    '/Images/LtBtown2.PNG',
-    '/Images/LtBtown3.PNG'
+    '/Images/LtBtown1.png',
+    '/Images/LtBtown2.png',
+    '/Images/LtBtown3.png'
   ]
   
   const mapsImages = [
@@ -30,7 +30,7 @@ export default function LightTheBeaconPage() {
   const conceptImages = [
     '/Images/LtBCon01.jpg',
     '/Images/LtBcon02.jpg',
-    '/Images/LtBCon03.jpg',
+    '/Images/LtBCon03.png',
     '/Images/LtBCon04.jpg',
     '/Images/LtBCon05.jpg',
     '/Images/LtBCon06.jpg',

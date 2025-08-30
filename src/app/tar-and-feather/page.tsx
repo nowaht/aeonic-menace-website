@@ -129,7 +129,7 @@ export default function TarAndFeatherPage() {
                       className="w-full h-full border"
                       style={{borderColor: '#CA6EA7'}}
                     >
-                      <source src="/Images/TaFTrailer.mp4" type="video/mp4" />
+                      <source src="/Images/TaFTrailer-lite.mp4" type="video/mp4" />
                       Your browser does not support the video tag.
                     </video>
                   </div>
